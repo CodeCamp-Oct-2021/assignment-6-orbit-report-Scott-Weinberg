@@ -13,14 +13,16 @@ export class Satellite {
 		this.orbitType = orbitType;
 		this.operational = operational;
    }
-   
-	isSpaceDebris(type: string): boolean {
+   changeColor: boolean = false;
+	isSpaceDebris(): boolean {
 		if(this.type === "Space Debris"){
-		return true
+			alert("Space Debris detected")
+			return changeColor = true;
    			}else {
 				   return false;
 			   }
 	}
+	ngOnInit(){}
 
 }
 

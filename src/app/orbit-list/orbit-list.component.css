@@ -20,12 +20,12 @@ table {
 	background: #34495E;
 	color: #fff
 }
-
+.td-style{
+	background-color: red;
+}
 th, td {
 	text-align: left;
 	margin: 5px 10px;
 	padding: 6px;
 }
-.type-style{
-	background-color: red;
-}
+
