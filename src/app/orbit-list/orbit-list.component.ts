@@ -11,12 +11,12 @@ export class OrbitListComponent implements OnInit {
 
   @Input() satellites: Satellite[];
   constructor() { }
-  changeColor: boolean = false;
+ 
+changeColor: boolean = true;
 
   ngOnInit() {
   }
-  
-  
+
 
 	sort(column: string): void {
 		// array.sort modifies the array, sorting the items based on the given compare function

@@ -1,3 +1,5 @@
+import { TmplAstRecursiveVisitor } from "@angular/compiler";
+
 export class Satellite {
 
 	name: string;
@@ -13,16 +15,10 @@ export class Satellite {
 		this.orbitType = orbitType;
 		this.operational = operational;
    }
-   changeColor: boolean = false;
-	isSpaceDebris(): boolean {
-		if(this.type === "Space Debris"){
-			alert("Space Debris detected")
-			return changeColor = true;
-   			}else {
-				   return false;
-			   }
-	}
-	ngOnInit(){}
+
+   isSpaceDebris(): boolean {
+	return(this.type=== 'Space Debris')
+}
 
 }
 
